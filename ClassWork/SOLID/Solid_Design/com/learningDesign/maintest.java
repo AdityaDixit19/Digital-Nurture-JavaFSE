@@ -7,8 +7,6 @@ public class maintest extends book {
         book book =new book("java program","sunmicro","java is a powerfull prog. lang");
         BookPrinter printer = new BookPrinter();
         printer.printTextToConsole("hello world");
-
-
     }
 
 }
