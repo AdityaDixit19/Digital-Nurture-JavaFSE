@@ -7,6 +7,8 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+
+import java.io.IOException;
 import java.util.*;
 @RestController
 @RequestMapping("/api")
@@ -45,4 +47,23 @@ public class ProductController {
                 // bytes with the correct
                 // Content-Type so the browser or client can display the image properly.
     }
+    @PutMapping("/product/{id}")
+    public ResponseEntity<String> updateProduct(@PathVariable int id, @RequestPart Product product, @RequestPart MultipartFile imageFile) throws IOException {
+        // Calls the service layer to update the product.
+        // If the product is not found, ProductNotFoundException is thrown and handled automatically by GlobalExceptionHandler.
+        service.updateProduct(id, product, imageFile);
+        // Returned only if the update is successful.
+        return ResponseEntity.ok("Product updated successfully.");
+    }
+    @DeleteMapping("/product/{id}")
+    public ResponseEntity<?> deleteProduct(@PathVariable int id) {
+        Product product = service.getProduct(id);
+        if(product != null){
+            service.deleteProduct(id);
+            return new ResponseEntity<>("product succesfully deleted",HttpStatus.OK);
+        }
+        else
+            return new ResponseEntity<>("Failed to update product",HttpStatus.NOT_FOUND);
+    }
+
 }
