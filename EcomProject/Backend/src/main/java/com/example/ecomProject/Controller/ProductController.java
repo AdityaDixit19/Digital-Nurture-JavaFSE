@@ -1,6 +1,7 @@
 package com.example.ecomProject.Controller;
 import com.example.ecomProject.model.Product;
 import  com.example.ecomProject.service.ProductService;
+import org.hibernate.boot.jaxb.SourceType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -64,6 +65,13 @@ public class ProductController {
         }
         else
             return new ResponseEntity<>("Failed to update product",HttpStatus.NOT_FOUND);
+    }
+    @GetMapping("/productsc/search")
+    public ResponseEntity<List<Product>> searchProducts(@RequestParam String keyword) {
+        System.out.println("Searching for " + keyword);
+        List<Product> Products=service.searchProducts(keyword);
+        return new ResponseEntity<>(Products, HttpStatus.OK);
+
     }
 
 }

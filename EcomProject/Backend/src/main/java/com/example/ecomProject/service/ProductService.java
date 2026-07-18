@@ -56,4 +56,11 @@ public class ProductService {
     public void deleteProduct(int id) {
         repo.deleteById(id);
     }
+
+    public List<Product> searchProducts(String keyword) {
+        if (keyword == null || keyword.trim().isEmpty()) {
+            return repo.findAll();
+        }
+        return repo.searchProducts(keyword);
+    }
 }
