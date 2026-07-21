@@ -2,12 +2,10 @@ package com.sam;
 
 public class CurrentAccount extends BankAccount {
     private double overdraftLimit;
-
     public CurrentAccount(int accountNumber, String customerName, double balance, double overdraftLimit) {
         super(accountNumber, customerName, balance);
         this.overdraftLimit = overdraftLimit;
     }
-
     void displayAccountInfo() {
         System.out.println("\n Current Account");
         System.out.println("Account no:" + this.getAccountNumber());

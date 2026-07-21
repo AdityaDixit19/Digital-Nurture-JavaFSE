@@ -6,7 +6,6 @@ public class SavingsAccount extends BankAccount {
         super(accountNumber, customerName, Balance);
         this.intrestRate = intrestRate;
     }
-
     void displayAccountInfo() {
         System.out.println("\n Savings Account");
         System.out.println("Account no:" + this.getAccountNumber());

@@ -7,11 +7,9 @@ public class BankingSystem {
         accounts.add(new CurrentAccount(102, "Amit", (double)20000.0F, (double)5000.0F));
         ((BankAccount)accounts.get(0)).deposit((double)3000.0F);
         ((BankAccount)accounts.get(1)).withdraw((double)2000.0F);
-
         for(BankAccount account : accounts) {
             account.displayAccountInfo();
             System.out.println(account);
         }
-
     }
 }
