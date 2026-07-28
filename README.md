@@ -1,61 +1,197 @@
-# Digital-Nurture-JavaFSE
+#  Digital-Nurture-JavaFSE
 
-## Overview
+> My learning repository for the **Cognizant Digital Nurture 5.0 – Java Full Stack Engineer (Java FSE)** program.
 
-This repository contains my learning journey through the Cognizant Digital Nurture Java Full Stack Engineer (Java FSE) Deep Skilling Program along with additional upskilling exercises and personal projects. It serves as a centralized collection of concepts, coding exercises, design patterns, object-oriented programming implementations, and practical Java applications.
+This repository documents my progress throughout the Digital Nurture Deep Skilling Program. It contains week-wise hands-on exercises, assignments, projects, classwork, and personal practice covering Java Full Stack Development.
 
-The primary goal of this repository is to document my progress, strengthen my understanding of Java and software engineering concepts, and maintain a structured record of all assignments and practice work completed during the program.
+The repository is maintained as a structured portfolio to track my learning and demonstrate practical implementation of Concepts.
 
 ---
 
-## Repository Structure
+# 📂 Repository Structure
 
 ```text
 Digital-Nurture-JavaFSE
 │
-├── Deepskilling
-│   ├── Week-wise learning modules
-│   ├── Engineering concepts
-│   ├── Design pattern implementations
-│   ├── Assignments
-│   └── Practice exercises
+├── 📁 Deepskilling
+│   ├── Week 01 – Engineering Concepts
+│   ├── Week 02 – Spring Core, Maven & Spring Data JPA
+│   ├── Week 03 – Spring Boot REST APIs
+│   ├── Week 04 – Spring Boot Microservices
+│   ├── Week 05 – React
+│   └── Week 06 – React & Git
 │
-├── Upskilling
-│   ├── Core Java practice
-│   ├── Object-Oriented Programming projects
-│   ├── Additional coding exercises
-│   └── Personal learning projects
+├── 📁 ClassWork
+│   ├── JDBC
+│   ├── Spring
+│   ├── Hibernate
+│   ├── SOLID Principles
+│   ├── SonarQube
+│   └── OOP
+│
+├── 📁 Upskilling
+│   ├── Core Java Practice
+│   ├── Problem Solving
+│   └── Additional Exercises
+│
+├── 📁 EcomProject
+│   ├── Backend (Spring Boot)
+│   └── Frontend (React + Vite)
 │
 └── README.md
 ```
-## Topics Covered
 
-* Core Java
-* Object-Oriented Programming
-* Design Patterns
-* Exception Handling
-* Collections Framework
-* Multithreading
-* File Handling
-* Java 8 Features
-* SQL
-* Software Engineering Concepts
-* Coding Practice
-* Mini Projects
-Additional topics will be added as the learning program progresses.
-## Objectives
-* Build a strong foundation in Java programming.
-* Understand software design principles and industry-standard design patterns.
-* Develop clean, modular, and maintainable code.
-* Practice problem-solving through assignments and projects.
-* Track learning progress throughout the Java Full Stack Engineer program.
-## Repository Maintenance
-This repository is updated regularly with:
+---
 
-* Weekly learning modules
-* Assignment solutions
-* Practice programs
-* Mini projects
-* Personal experiments and improvements
-## Note
-This repository is intended for educational purposes and personal learning documentation. The implementations are created as part of continuous learning and may evolve as new concepts and best practices are explored.
+#  Tech Stack
+
+### Languages
+
+- Java
+- JavaScript
+- SQL
+- HTML5
+- CSS3
+
+### Frameworks & Libraries
+
+- Spring Framework
+- Spring Boot
+- Spring MVC
+- Spring Security
+- Spring Data JPA
+- Hibernate
+- React
+- Vite
+
+### Databases
+
+- MySQL
+- H2 Database
+
+### Build Tools
+
+- Maven
+- npm
+
+### Tools
+
+- IntelliJ IDEA
+- VS Code
+- Git
+- GitHub
+- Postman
+- SonarQube
+
+---
+
+#  Topics Covered
+
+### Core Java
+
+- OOP
+- Exception Handling
+- Collections
+- Generics
+- Multithreading
+- File Handling
+- Java 8 Features
+
+### Software Engineering
+
+- SOLID Principles
+- Design Patterns
+- MVC Architecture
+
+### Spring Ecosystem
+
+- Dependency Injection
+- Bean Management
+- Spring Core
+- Spring Boot
+- REST APIs
+- Spring Security
+- Spring Data JPA
+- Hibernate ORM
+- Microservices
+
+### Frontend
+
+- React Fundamentals
+- Components
+- Props
+- State
+- Event Handling
+- Routing
+- Forms
+
+### Database
+
+- SQL
+- JDBC
+- JPA
+- Hibernate
+
+### Development Tools
+
+- Git & GitHub
+- Maven
+- SonarQube
+- Postman
+
+---
+
+#  Featured Project
+
+## 🛒 EcomProject
+
+A Full Stack E-Commerce application built using:
+
+- Spring Boot
+- React
+- MySQL
+- REST APIs
+- Hibernate
+- Maven
+
+### Features
+
+- Product CRUD
+- Image Upload
+- Search Products
+- REST API Integration
+- Responsive React Frontend
+
+---
+
+#  Learning Goals
+
+- Build strong Java fundamentals.
+- Master Spring Boot and RESTful API development.
+- Learn React for frontend development.
+- Understand Full Stack application architecture.
+- Improve problem-solving and coding skills.
+- Follow clean coding practices.
+- Maintain production-quality Git repositories.
+
+---
+
+#  Repository Purpose
+
+This repository serves as:
+
+- Learning journal
+- Practice repository
+- Assignment archive
+- Project portfolio
+- Interview preparation resource
+
+---
+
+#  Acknowledgements
+
+This repository is developed as part of the **Cognizant Digital Nurture 5.0 – Java Full Stack Engineer (Java FSE)** learning program along with additional self-learning and hands-on practice.
+
+---
+
+⭐ If you find this repository useful, feel free to explore the projects and learning resources.
